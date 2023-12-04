@@ -6,7 +6,7 @@ const cors = require('cors'); //Add CORS middleware
 
 const app = express();
 
-const port = 3001;
+const port = 3002;
 
 app.use(bodyParser.json());
 app.use(cors()); //Enable CORS
